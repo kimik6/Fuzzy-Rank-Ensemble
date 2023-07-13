@@ -3,8 +3,8 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import glob
-from keras.preprocessing.image import ImageDataGenerator, img_to_array, array_to_img
-from tensorflow.keras.utils import load_img
+from keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.utils import load_img ,img_to_array ,array_to_img
 import pickle
 import os
 from keras.utils import np_utils
